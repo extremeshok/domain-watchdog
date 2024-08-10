@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+
+msgid "Domain Watchdog Update Error"
+msgstr "__Domain Watchdog Update Error"
+
+msgid "Hello, <br/>\n                We would like to inform you that an error occurred while updating the information for the following domain\n                name:"
+msgstr "__Hello, <br/>\n                We would like to inform you that an error occurred while updating the information for the following domain\n                name:"
+
+msgid "Domain name:"
+msgstr "__Domain name:"
+
+msgid "Here are some possible explanations:"
+msgstr "__Here are some possible explanations:"
+
+msgid "<li>It is likely that the domain will be available for registration again.</li>\n                <li>A temporary outage affects the provision of domain name information.</li>"
+msgstr "__<li>It is likely that the domain will be available for registration again.</li>\n                <li>A temporary outage affects the provision of domain name information.</li>"
+
+msgid "Thank you for your understanding,<br/>\n                Sincerely,<br/>\n                Domain Watchdog<br/>"
+msgstr "__Thank you for your understanding,<br/>\n                Sincerely,<br/>\n                Domain Watchdog<br/>"
+
+msgid "Domain Watchdog Order Error"
+msgstr "__Domain Watchdog Order Error"
+
+msgid "Hello, <br/>\n                We would like to inform you that an error occurred while ordering the following domain name:"
+msgstr "__Hello, <br/>\n                We would like to inform you that an error occurred while ordering the following domain name:"
+
+msgid "<li>The Connector configuration you provided is no longer valid.</li>\n                <li>It is likely that the domain is no longer available for registration.</li>\n                <li>A temporary interruption is affecting the registration of this domain name.</li>"
+msgstr "__<li>The Connector configuration you provided is no longer valid.</li>\n                <li>It is likely that the domain is no longer available for registration.</li>\n                <li>A temporary interruption is affecting the registration of this domain name.</li>"
+
+msgid "Domain Watchdog - Confirm Email"
+msgstr "__Domain Watchdog - Confirm Email"
+
+msgid "Hello, <br/>\n                Please confirm your email address by clicking the following link:"
+msgstr "__Hello, <br/>\n                Please confirm your email address by clicking the following link:"
+
+msgid "Confirm my Email"
+msgstr "__Confirm my Email"
+
+msgid "This link will expire in"
+msgstr "__This link will expire in"
+
+msgid "Domain Watchdog - Domain Ordered"
+msgstr "__Domain Watchdog - Domain Ordered"
+
+msgid "Hello, <br/>\n                We are pleased to inform you that a domain name present in your Watchlist has been ordered using the\n                connector you have chosen.<br/>"
+msgstr "__Hello, <br/>\n                We are pleased to inform you that a domain name present in your Watchlist has been ordered using the\n                connector you have chosen.<br/>"
+
+msgid "Connector provider :"
+msgstr "__Connector provider :"
+
+msgid "Domain Watchdog Alert"
+msgstr "__Domain Watchdog Alert"
+
+msgid "Hello, <br/>\n                We are pleased to inform you that a new action has been detected on a domain name in your watchlist.\n                <br/>"
+msgstr "__Hello, <br/>\n                We are pleased to inform you that a new action has been detected on a domain name in your watchlist.\n                <br/>"
+
+msgid "Action:"
+msgstr "__Action:"
+
+msgid "Effective Date:"
+msgstr "__Effective Date:"

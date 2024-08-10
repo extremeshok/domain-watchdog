@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+
+msgid "%count% year"
+msgid_plural "%count% years"
+msgstr[0] "%count% année"
+msgstr[1] "%count% années"
+
+msgid "%count% month"
+msgid_plural "%count% months"
+msgstr[0] "%count% mois"
+msgstr[1] "%count% mois"
+
+msgid "%count% day"
+msgid_plural "%count% days"
+msgstr[0] "%count% jour"
+msgstr[1] "%count% jours"
+
+msgid "%count% hour"
+msgid_plural "%count% hours"
+msgstr[0] "%count% heure"
+msgstr[1] "%count% heures"
+
+msgid "%count% minute"
+msgid_plural "%count% minutes"
+msgstr[0] "%count% minute"
+msgstr[1] "%count% minutes"
+
+msgid "The link to verify your email has expired. Please request a new link."
+msgstr "Le lien pour vérifier votre adresse e-mail a expiré. Veuillez refaire une demande de réinitialisation."
+
+msgid "The link to verify your email is invalid. Please request a new link."
+msgstr "Le lien pour vérifier votre adresse e-mail est invalide. Veuillez refaire une demande de réinitialisation."
+
+msgid "The link to verify your email appears to be for a different account or email. Please request a new link."
+msgstr "Le lien permettant de vérifier votre adresse e-mail semble correspondre à un autre compte ou e-mail. Veuillez refaire une demande de réinitialisation."

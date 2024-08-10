@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <style>
         body {
@@ -40,22 +40,30 @@
             color: #777;
         }
     </style>
-    <title>Domain Watchdog - Confirm Email</title>
 </head>
 <body>
 <div class="container">
     <div class="header">
-        <h1>Domain Watchdog - Confirm Email</h1>
+        <h1>{{ 'Domain Watchdog - Confirm Email' | trans }}</h1>
     </div>
     <div class="content">
-        <p>Hello, <br/>
-            Please confirm your email address by clicking the following link: <br><br>
-            <a href="{{ signedUrl|raw }}">Confirm my Email</a>.
-            This link will expire in {{ expiresAtMessageKey|trans(expiresAtMessageData, 'VerifyEmailBundle') }}.
-            <br/><br/>
-            Thank you for your understanding,<br/>
-            Sincerely,<br/>
-            Domain Watchdog<br/>
+        <p>
+            {% trans %}
+                Hello, <br/>
+                Please confirm your email address by clicking the following link:
+            {% endtrans %}
+        </p>
+        <br><br>
+        <a href="{{ signedUrl|raw }}">{{ 'Confirm my Email' | trans }}</a>.
+        {{ 'This link will expire in' | trans }} {{ expiresAtMessageKey|trans(expiresAtMessageData, 'VerifyEmailBundle') }}
+        .
+        <br/><br/>
+        <p>
+            {% trans %}
+                Thank you for your understanding,<br/>
+                Sincerely,<br/>
+                Domain Watchdog<br/>
+            {% endtrans %}
         </p>
     </div>
     <div class="footer">

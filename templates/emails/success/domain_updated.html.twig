@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <style>
         body {
@@ -40,23 +40,30 @@
             color: #777;
         }
     </style>
-    <title>Domain Watchdog Alert</title>
 </head>
 <body>
 <div class="container">
     <div class="header">
-        <h1>Domain Watchdog Alert</h1>
+        <h1>{{ 'Domain Watchdog Alert' | trans }}</h1>
     </div>
     <div class="content">
-        <p>Hello, <br/>
-            We are pleased to inform you that a new action has been detected on a domain name in your watchlist.<br/>
-            <strong>Domain name:</strong> {{ event.domain.ldhName }}<br/>
-            <strong>Action:</strong> {{ event.action }}<br/>
-            <strong>Effective Date:</strong> {{ event.date | date("c") }}<br/>
-            <br/><br/>
-            Thank you for your understanding,<br/>
-            Sincerely,<br/>
-            Domain Watchdog<br/>
+        <p>
+            {% trans %}
+                Hello, <br/>
+                We are pleased to inform you that a new action has been detected on a domain name in your watchlist.
+                <br/>
+            {% endtrans %}
+        </p>
+        <strong>{{ 'Domain name:'|trans }}</strong> {{ event.domain.ldhName }}<br/>
+        <strong>{{ 'Action:'|trans }}</strong> {{ event.action }}<br/>
+        <strong>{{ 'Effective Date:'|trans }}</strong> {{ event.date | date("c") }}<br/>
+        <br/><br/>
+        <p>
+            {% trans %}
+                Thank you for your understanding,<br/>
+                Sincerely,<br/>
+                Domain Watchdog<br/>
+            {% endtrans %}
         </p>
     </div>
     <div class="footer">

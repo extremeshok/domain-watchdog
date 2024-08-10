@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "%count% year"
+msgid_plural "%count% years"
+msgstr[0] "%count% year"
+msgstr[1] "%count% years"
+
+msgid "%count% month"
+msgid_plural "%count% months"
+msgstr[0] "%count% month"
+msgstr[1] "%count% months"
+
+msgid "%count% day"
+msgid_plural "%count% days"
+msgstr[0] "%count% day"
+msgstr[1] "%count% days"
+
+msgid "%count% hour"
+msgid_plural "%count% hours"
+msgstr[0] "%count% hour"
+msgstr[1] "%count% hours"
+
+msgid "%count% minute"
+msgid_plural "%count% minutes"
+msgstr[0] "%count% minute"
+msgstr[1] "%count% minutes"
+
+msgid "The link to verify your email has expired. Please request a new link."
+msgstr "The link to verify your email has expired. Please request a new link."
+
+msgid "The link to verify your email is invalid. Please request a new link."
+msgstr "The link to verify your email is invalid. Please request a new link."
+
+msgid "The link to verify your email appears to be for a different account or email. Please request a new link."
+msgstr "The link to verify your email appears to be for a different account or email. Please request a new link."

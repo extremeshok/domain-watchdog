@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <style>
         body {
@@ -40,23 +40,29 @@
             color: #777;
         }
     </style>
-    <title>Domain Watchdog - Domain Ordered</title>
 </head>
 <body>
 <div class="container">
     <div class="header">
-        <h1>Domain Watchdog - Domain Ordered</h1>
+        <h1>{{ 'Domain Watchdog - Domain Ordered' | trans }}</h1>
     </div>
     <div class="content">
-        <p>Hello, <br/>
-            We are pleased to inform you that a domain name present in your Watchlist has been ordered using the
-            connector you have chosen.<br/>
-            <strong>Domain name:</strong> {{ domain.ldhName }}<br/>
-            <strong>Connector provider :</strong> {{ provider }}<br/>
-            <br/><br/>
-            Thank you for your understanding,<br/>
-            Sincerely,<br/>
-            Domain Watchdog<br/>
+        <p>
+            {% trans %}
+                Hello, <br/>
+                We are pleased to inform you that a domain name present in your Watchlist has been ordered using the
+                connector you have chosen.<br/>
+            {% endtrans %}
+        </p>
+        <strong>{{ 'Domain name:' | trans }}</strong> {{ domain.ldhName }}<br/>
+        <strong>{{ 'Connector provider :' | trans }}</strong> {{ provider }}<br/>
+        <br/><br/>
+        <p>
+            {% trans %}
+                Thank you for your understanding,<br/>
+                Sincerely,<br/>
+                Domain Watchdog<br/>
+            {% endtrans %}
         </p>
     </div>
     <div class="footer">
